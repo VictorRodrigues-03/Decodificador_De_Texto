@@ -8,3 +8,9 @@ Site criado para desafio Challenger One em conjunto com a Alura. Um site com uma
 - `Funcionalidade 1`: Encriptografar textos de acordo com a regra fornecida.
 - `Funcionalidade 2`: Descriptografar textos utilizando as mesmas regras
 - `Funcionalidade 3`: Copiar o texto resultado
+
+## ✔️ Técnicas e tecnologias utilizadas
+
+- ``HTML``
+- ``CSS``
+- ``JS``
