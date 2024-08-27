@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+</head>
+<body class="Pagina">
+    <main>
+        <div class="Pagina__Container">
+            <div class="Pagina__Container__Esquerdo">
+                <img src="assets/Alura.png" class="Alura" alt="Logo_Alura">
+                <div class="Pagina__Container__Texto__Form">   
+                    <textarea class="formulario" placeholder="Digite seu texto aqui" id="Texto"></textarea>
+                    <p><img src="assets/Alerta.png" alt="Aviso">Apenas letras minúsculas e sem acento.</p>
+                    <div class="Pagina__Container__Texto__Botoes">
+                        <button class="Botao_1" onclick="encrypt()">Criptografar</button>
+                        <button class="Botao_2" onclick="decrypt()">Descriptografar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="Pagina__Container__Imagem" id="Texto__Encriptado">
+                    <section class="Pagina__Container__Direita" id="Texto__Encriptado__Filho">
+                        <img class="bonecoIMG" src="assets/Boneco.png" alt="Boneco">
+                        <h1 class="Titulo__Imagem">Nenhuma mensagem encontrada</h1>
+                        <p class="Paragrafo__Imagem">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </section>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
